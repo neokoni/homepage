@@ -1,0 +1,39 @@
+@font-face {
+    font-family: OPlusSans3 ;
+    src: url("/font/OPlusSans3-Light.ttf");
+}
+
+body{
+    font-family: 'OPlusSans3';
+}
+
+h1.username{
+    text-align: center;
+}
+
+.signature{
+    text-align: center;
+}
+
+.title-bio{
+    margin-left: 4%;
+}
+
+.text{
+    margin-left: 6%;
+}
+
+.footnote{
+    display: contents;
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 100%;
+}
+
+
+.sourcelist{
+    background-color: rgba(155, 155, 155, 0.4);
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+}
