@@ -44,8 +44,8 @@ div.avatar{
     margin-left: 10%;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 40px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     border-right: 1px solid rgba(255,255,255,0.5);
@@ -75,8 +75,8 @@ div.part-top{
     position: absolute;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 40px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     border-right: 1px solid rgba(255,255,255,0.5);
@@ -89,8 +89,8 @@ div.part-bottom{
     position: absolute;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 40px;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     border-right: 1px solid rgba(255,255,255,0.5);
