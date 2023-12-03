@@ -3,6 +3,20 @@
     src: url("/font/OPlusSans3-Light.ttf");
 }
 
+@media screen and (max-width:1920px){
+body{
+    font-size: 100%;
+}
+}
+
+@media screen and (min-width:1920px) {
+
+body{
+    font-size: 140%;
+}
+
+}
+
 body{
     font-family: 'OPlusSans3';
 }
