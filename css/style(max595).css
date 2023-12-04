@@ -8,7 +8,7 @@ div.background1{
     width: 100%;
     position: relative;
     /* 页面高度 */
-    height:2170px;
+    height:2200px;
 }
 
 
@@ -302,8 +302,8 @@ button.mail:hover {
     color: #ffffff;
 }
 
-div.footnote-inv-m{
-    height: 740px;
+div.footnote-inv{
+    height: 73%;
 }
 
 div.under-avatar{
