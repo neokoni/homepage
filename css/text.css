@@ -1,6 +1,6 @@
 @font-face {
     font-family: OPlusSans3 ;
-    src: url("/font/OPlusSans3-Light.ttf");
+    src: url("/font/OPlusSans3-Light.subset.ttf");
 }
 
 @media screen and (max-width:1920px){
