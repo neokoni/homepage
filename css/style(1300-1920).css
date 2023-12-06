@@ -105,9 +105,9 @@ div.part-bottom{
 div.btm-border-top{
     align-items: center;
     margin: 0 auto;
-    height: 90px;
+    width: 80%;
     height: 45%;
-    padding-top: 10px;
+    padding-top: 0.9%;
     display: flex;
 }
 
