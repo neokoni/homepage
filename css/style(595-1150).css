@@ -9,6 +9,7 @@ div.background1{
     position: relative;
     /* 页面高度 */
     height:1880px;
+    overflow: hidden;
 }
 
 
@@ -21,8 +22,10 @@ div.background1::before {
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center;
+	left: -5%;
+	top: -5%;
+	padding: 5%;
 }
 
 div.background2{
