@@ -37,6 +37,10 @@ h1.username{
     margin-left: 6%;
 }
 
+.describe{
+    margin-left: 25%;
+}
+
 .footnote{
     display: contents;
     text-align: center;
