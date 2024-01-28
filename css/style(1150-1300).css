@@ -48,6 +48,7 @@ div.avatar{
     height: 810px;
     left: 4.0%;
     position: absolute;
+    background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
     border-radius: var(--border-radius);
     backdrop-filter: var(--backdrop-filter);
@@ -79,6 +80,7 @@ div.part-top{
     width: 100%;
     height: 550px;
     position: absolute;
+    background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
     border-radius: var(--border-radius);
     backdrop-filter: var(--backdrop-filter);
@@ -93,6 +95,7 @@ div.part-bottom{
     width: 100%;
     height: 200px;
     position: absolute;
+    background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
     border-radius: var(--border-radius);
     backdrop-filter: var(--backdrop-filter);
