@@ -8,7 +8,7 @@ div.background1{
     width: 100%;
     position: relative;
     /* 页面高度 */
-    height:2200px;
+    height:2050px;
     overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ div.rightinfo{
 
 div.part-top{
     width: 100%;
-    height: 840px;
+    height: 750px;
     position: absolute;
     background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
@@ -162,7 +162,7 @@ button.minecraft-serevr{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 270px;
+    width: 215px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -308,7 +308,7 @@ button.mail:hover {
 }
 
 div.footnote-inv{
-    height: 73%;
+    height: 72%;
 }
 
 div.under-avatar{
@@ -316,7 +316,7 @@ div.under-avatar{
 }
 
 div.rightinfo-inv{
-    height: 870px;
+    height: 780px;
 }
 
 
