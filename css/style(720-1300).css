@@ -1,14 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-} 
-
-@media screen and (min-width: 1920px){ 
+@media screen and (max-width: 1300px) and (min-width: 720px) { 
 
 div.topdiv{
     height: 8%;
 }
 
+h3.text{
+    font-size: calc(1.8vh);
+}
 
 div.background1{
     width: 100%;
@@ -36,20 +34,21 @@ div.background1::before {
 
 div.background2{
     width: 100%;
-    height: calc(100vh);
+    height: 961px;
     position: relative;
     background-repeat: no-repeat;
 }
 
 div.background2::before{
     width: 100%;
+    height:961px;
     opacity: 0.3;
 }
 
 div.avatar{
     width: 22%;
-    height: 85%;
-    left: 8.0%;
+    height: calc(83vh);
+    left: 4.0%;
     position: absolute;
     background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
@@ -65,7 +64,7 @@ div.avatar{
 
 
 img.avatar{
-    height: 30%;
+    height: calc(18vw);
     clear: both;
     display: block;
     margin: auto;
@@ -73,15 +72,15 @@ img.avatar{
 }
 
 div.rightinfo{
-    width: 60%;
-    height: 85%;
-    margin-left: 35%;
+    width: 69%;
+    height: 810px;
+    margin-left: 30%;
     position: absolute;
 }
 
 div.part-top{
     width: 100%;
-    height: 70%;
+    height: calc(55vh);
     position: absolute;
     background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
@@ -96,7 +95,7 @@ div.part-top{
 
 div.part-bottom{
     width: 100%;
-    height: 25.3%;
+    height: calc(24.1vh);
     position: absolute;
     background-color:var(--div-bg-color);
     box-shadow: var(--div-box-shadow);
@@ -115,8 +114,8 @@ div.part-bottom{
 div.btm-border-top{
     align-items: center;
     margin: 0 auto;
-    height: 45%;
-    width: 80%;
+    height: 90px;
+    width: calc(62vw);
     padding-top: 1%;
     display: flex;
 }
@@ -126,7 +125,7 @@ button.blog{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 120px;
+    width: 110px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -147,7 +146,7 @@ button.alist{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 130px;
+    width: 120px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -167,7 +166,7 @@ button.minecraft-serevr{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 270px;
+    width: 210px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -187,7 +186,7 @@ button.donate{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 150px;
+    width: 140px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -205,8 +204,8 @@ button.donate:hover {
 div.btm-border-buttom{
     align-items: center;
     margin: 0 auto;
-    height: 45%;
-    width: 90%;
+    height: 90px;
+    width: calc(64vw);
     display: flex;
 }
 
@@ -217,7 +216,7 @@ button.github{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 140px;
+    width: 125px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -228,9 +227,8 @@ button.github{
     transition-duration: var(--btm-excessive-time);
 }
 button.github:hover {
-    border-color: rgb(154, 184, 162,1);
-    color: var(--btm-text-color-hover);
     border: var(--btm-border);
+    color: var(--btm-text-color-hover);
 }
 
 button.bilibili{
@@ -238,7 +236,7 @@ button.bilibili{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 140px;
+    width: 125px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -258,7 +256,7 @@ button.douyin{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 150px;
+    width: 135px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -278,7 +276,7 @@ button.telegram{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 180px;
+    width: 155px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -298,7 +296,7 @@ button.mail{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 150px;
+    width: 135px;
     line-height: 10px;
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -315,13 +313,11 @@ button.mail:hover {
 }
 
 div.rightinfo-inv{
-    height: 75%;
+    height: calc(58.5vh);
 }
 
 div.footnote-inv{
-    height: 86%;
+    height: calc(85vh);
 }
 
-} 
-
-
+}  

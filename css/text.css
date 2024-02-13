@@ -18,7 +18,7 @@ body{
 
 body{
     font-family: 'OPlusSans3';
-    color: rgb(200, 209, 216);
+    color: rgb(255, 255, 255);
 }
 
 h1.username{
@@ -31,6 +31,10 @@ h1.username{
 
 .title-bio{
     margin-left: 4%;
+}
+
+.describe-div{
+    margin-right: 1%;
 }
 
 .text{
@@ -56,10 +60,9 @@ h1.username{
     border-radius: 7px;
 }
 
-.status{
-    background-color: rgba(145, 255, 228, 0.233);
-    color: #e4f3ff;
-    text-decoration: none;
-    border-radius: 7px;
-    font-size: 180%;
+.btm-text{
+    padding-left: 5px;
+    font-size: 150%;
+    vertical-align:middle;
+    padding-top: 1.5%;
 }

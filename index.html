@@ -2,13 +2,14 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/style(1300-1920).css">
-    <link rel="stylesheet" href="css/style(1150-1300).css">
-    <link rel="stylesheet" href="css/style(595-1150).css">
+    <link rel="stylesheet" href="css/style(720-1300).css">
+    <link rel="stylesheet" href="css/style(595-720).css">
     <link rel="stylesheet" href="css/style(max595).css">
     <link rel="stylesheet" href="css/style(mini1920).css">
     <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/var.css">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,  chrome=1">
     <title>Neokoni's home</title>
@@ -42,16 +43,20 @@
                     <div class="part-top">
                         <div style="height: 50px;"></div>
                         <h1 class="title-bio">Hi！</h1>
-                        <h3 class="text">哈喽，这里是Neokoni，来自四川南充，目前高二。</h3>
-                        <h3 class="text">喜欢折腾一些计算机方面的东西，ArchLinux用户一枚</h3>
-                        <h3 class="text">爱好摸鱼，整天摸鱼，天天摸鱼，没事就摸鱼，菜但爱玩</h3>
-                        <h3 class="text">不知道写些什么了，头像下面也是。。。</h3>
-                        <div style="height: 70px;"></div>
+                        <div class="describe-div">
+                            <h3 class="text">哈喽，这里是Neokoni，来自四川南充，目前高二。</h3>
+                            <h3 class="text">喜欢折腾一些计算机方面的东西，ArchLinux用户一枚</h3>
+                            <h3 class="text">爱好摸鱼，整天摸鱼，天天摸鱼，没事就摸鱼，菜但爱玩</h3>
+                            <h3 class="text">不知道写些什么了，头像下面也是。。。</h3>
+                        </div>
+                        <div style="height: calc(4vh);"></div>
                         <h1 class="title-bio">关于本站?</h1>
-                        <h3 class="text">一个天天唠叨，鸽了很久的项目。一个因为买了域名而提上日程的东西</h3>
-                        <h3 class="text">经四面八方搜索结合自己知道的东西写出来的，用于展示搞的某些东西</h3>
-                        <h3 class="text">就像MarkDown写的README一样</h3>
-                        <h3 class="text">本站所有资源均来自于互联网，你可以在<a href="/source.html" target="_blank" class="sourcelist">这里</a>找到它们</h3>
+                        <div class="describe-div">
+                            <h3 class="text">一个天天唠叨，鸽了很久的项目。一个因为买了域名而提上日程的东西</h3>
+                            <h3 class="text">经四面八方搜索结合自己知道的东西写出来的，用于展示搞的某些东西</h3>
+                            <h3 class="text">就像MarkDown写的README一样</h3>
+                            <h3 class="text">本站所有资源均来自于互联网，你可以在<a href="/source.html" target="_blank" class="sourcelist">这里</a>找到它们</h3>
+                        </div>
                         <div style="display: flex;">
                             <h1 class="title-bio">Status</h1><a class="status" href="https://status.neokoni.moe/status/all" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>
                         </div>
@@ -63,49 +68,49 @@
                             <!-- 按钮 -->
                             <button class="blog" onclick='window.open("https"+":"+"/"+"/"+"blog.neokoni.moe")'>
                                 <img src="/image/icon/blog.svg" alt="Blog" height="25px" style="align-items: center; margin-left: 18px;">
-                                <h1>Blog</h1>
+                                <h1 class="btm-text">Blog</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="alist" onclick='window.open("https"+":"+"/"+"/"+"alist.neokoni.moe")'>
                                 <img src="/image/icon/alist.svg" alt="Alist" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>Alist</h1>
+                                <h1 class="btm-text">Alist</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="minecraft-serevr" onclick='window.open("https"+":"+"/"+"/"+"www.craft233.top")'>
                                 <img src="/image/icon/minecraft.svg" alt="Minecraft" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>Minecraft Server</h1>
+                                <h1 class="btm-text">Minecraft Server</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="donate" onclick='window.open("https"+":"+"/"+"/"+"donate.neokoni.moe")'>
                                 <img src="/image/icon/sponsor.svg" alt="Donate" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>Donate</h1>
+                                <h1 class="btm-text">Donate</h1>
                             </button>
                         </div>
                         <div class="btm-border-buttom" >
                             <div class="interval"></div>
                             <button class="github" onclick='window.open("https"+":"+"/"+"/"+"github.com/sekaom")'>
                                 <img src="/image/icon/github.svg" alt="Github" height="25px" style="align-items: center; margin-left: 18px;">
-                                <h1>Github</h1>
+                                <h1 class="btm-text">Github</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="bilibili" onclick='window.open("https"+":"+"/"+"/"+"space.bilibili.com/703126674")'>
                                 <img src="/image/icon/bilibili.svg" alt="BiliBili" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>BiliBili</h1>
+                                <h1 class="btm-text">BiliBili</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="douyin" onclick='window.open("https"+":"+"/"+"/"+"www.douyin.com/user/MS4wLjABAAAAsfXuZcbYL7t_uuGVyEQtxxiYdKO9VpZobI52IAdoAB8")'>
                                 <img src="/image/icon/douyin.svg" alt="Douyin" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>DouYin</h1>
+                                <h1 class="btm-text">DouYin</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="telegram" onclick='window.open("https"+":"+"/"+"/"+"t.me/Neokoni")'>
                                 <img src="/image/icon/telegram.svg" alt="Telegram" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>Telegram</h1>
+                                <h1 class="btm-text">Telegram</h1>
                             </button>
                             <div class="interval"></div>
                             <button class="mail" onclick='window.open("mailto:me@neokoni.moe")'>
                                 <img src="/image/icon/mail.svg" alt="Mail" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1>E-Mail</h1>
+                                <h1 class="btm-text">E-Mail</h1>
                             </button>
                         </div>
                     </div>

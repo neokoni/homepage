@@ -8,7 +8,7 @@ div.background1{
     width: 100%;
     position: relative;
     /* 页面高度 */
-    height:2200px;
+    height:2050px;
     overflow: hidden;
 }
 
@@ -45,14 +45,15 @@ div.avatar{
     width: 80%;
     height: 400px;
     margin-left: 10%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    background-color:var(--div-bg-color);
+    box-shadow: var(--div-box-shadow);
+    border-radius: var(--border-radius);
+    backdrop-filter: var(--backdrop-filter);
+    -webkit-backdrop-filter: var(--backdrop-filter);
+    border-top: var(--div-border);
+    border-left: var(--div-border);
+    border-right: var(--div-border);
+    border-bottom: var(--div-border);
 }
 
 
@@ -74,30 +75,32 @@ div.rightinfo{
 
 div.part-top{
     width: 100%;
-    height: 840px;
+    height: 750px;
     position: absolute;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    background-color:var(--div-bg-color);
+    box-shadow: var(--div-box-shadow);
+    border-radius: var(--border-radius);
+    backdrop-filter: var(--backdrop-filter);
+    -webkit-backdrop-filter: var(--backdrop-filter);
+    border-top: var(--div-border);
+    border-left: var(--div-border);
+    border-right: var(--div-border);
+    border-bottom: var(--div-border);
 }
 
 div.part-bottom{
     width: 100%;
     height: 680px;
     position: absolute;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    border-radius: 40px;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
-    border-top: 1px solid rgba(255,255,255,0.5);
-    border-left: 1px solid rgba(255,255,255,0.5);
-    border-right: 1px solid rgba(255,255,255,0.5);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    background-color:var(--div-bg-color);
+    box-shadow: var(--div-box-shadow);
+    border-radius: var(--border-radius);
+    backdrop-filter: var(--backdrop-filter);
+    -webkit-backdrop-filter: var(--backdrop-filter);
+    border-top: var(--div-border);
+    border-left: var(--div-border);
+    border-right: var(--div-border);
+    border-bottom: var(--div-border);
 }
 
 
@@ -116,17 +119,17 @@ button.blog{
     width: 120px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #9ab8a2;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-services);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.blog:hover {
     border-color: rgb(154, 184, 162,1);
-    border: #9ab8a2 solid;
-    color: #ffffff;
+    border: var(--btm-border);
+    color: var(--btm-text-color-hover);
 }
 
 button.alist{
@@ -137,16 +140,16 @@ button.alist{
     width: 130px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #9ab8a2;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-services);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.alist:hover {
-    border: #9ab8a2 solid;
-    color: #ffffff;
+    border: var(--btm-border);
+    color: var(--btm-text-color-hover);
 }
 
 /* 按钮间距(仅竖屏生效) */
@@ -159,19 +162,19 @@ button.minecraft-serevr{
     align-items: center;
     margin: 0 auto;
     height: 60px;
-    width: 270px;
+    width: 215px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #85b1a0;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-services);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.minecraft-serevr:hover {
-    border: #9ab8a2 solid;
-    color: #ffffff;
+    border: var(--btm-border);
+    color: var(--btm-text-color-hover);
 }
 
 button.donate{
@@ -182,16 +185,16 @@ button.donate{
     width: 150px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #85b1a0;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-services);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.donate:hover {
-    border: #9ab8a2 solid;
-    color: #ffffff;
+    border: var(--btm-border);
+    color: var(--btm-text-color-hover);
 }
 
 div.btm-border-buttom{
@@ -211,17 +214,16 @@ button.github{
     width: 140px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #a1a1a1;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-touch);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.github:hover {
-    border-color: rgb(154, 184, 162,1);
-    border: #9ab8a2 solid;
-    color: #ffffff;
+    color: var(--btm-text-color-hover);
+    border: var(--btm-border);
 }
 
 button.bilibili{
@@ -232,16 +234,16 @@ button.bilibili{
     width: 140px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #a1a1a1;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-touch);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.bilibili:hover {
-    border-color: rgb(154, 184, 162,1);
-    color: #ffffff;
+    color: var(--btm-text-color-hover);
+    border: var(--btm-border);
 }
 
 button.douyin{
@@ -252,16 +254,16 @@ button.douyin{
     width: 150px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #a1a1a1;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-touch);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.douyin:hover {
-    border-color: rgb(154, 184, 162,1);
-    color: #ffffff;
+    color: var(--btm-text-color-hover);
+    border: var(--btm-border);
 }
 
 button.telegram{
@@ -272,16 +274,16 @@ button.telegram{
     width: 180px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #a1a1a1;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-touch);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.telegram:hover {
-    border-color: rgb(154, 184, 162,1);
-    color: #ffffff;
+    color: var(--btm-text-color-hover);
+    border: var(--btm-border);
 }
 
 button.mail{
@@ -292,21 +294,21 @@ button.mail{
     width: 150px;
     line-height: 10px;
     text-decoration: none;
-    border-radius: 40px;
-    border: rgb(154, 184, 162) solid;
-    border-color: rgb(154, 184, 162,0);
-    color: #a1a1a1;
-    background-color: rgba(0, 0, 0, 0.2);
-    transition-duration: 0.4s;
+    border-radius: var(--border-radius);
+    border: var(--btm-border);
+    border-color: var(--transparent-color);
+    color: var(--btm-text-color-touch);
+    background-color:var(--btm-bg-color);
+    transition-duration: var(--btm-excessive-time);
 }
 button.mail:hover {
-    border: rgba(175,180,43,1) solid;
-    background-color: rgba(175,180,43,1);
-    color: #ffffff;
+    border: var(--btm-email-color) solid;
+    background-color: var(--btm-email-color);
+    color: var(--btm-text-color-hover);
 }
 
 div.footnote-inv{
-    height: 73%;
+    height: 72%;
 }
 
 div.under-avatar{
@@ -314,7 +316,7 @@ div.under-avatar{
 }
 
 div.rightinfo-inv{
-    height: 870px;
+    height: 780px;
 }
 
 
