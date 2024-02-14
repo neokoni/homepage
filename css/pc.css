@@ -128,6 +128,15 @@
     font-weight: 500;
     font-size: 140%;
   }
+
+  .footnote{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+  }
   
   @keyframes slide-top {
     0% {
