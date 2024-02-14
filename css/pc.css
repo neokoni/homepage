@@ -41,12 +41,12 @@
     justify-content: space-around;
     margin-left: calc(13vw);
     margin-right: calc(13vw);
-    margin-top: calc(25vh);
+    margin-top: 13%;
   }
   
   .placards-top{
     text-align: left;
-    font-size: 60px;
+    font-size: calc(6vh);
     margin-bottom: 20px;
     -webkit-animation: slide-top 1s both;
     animation: slide-top 1s both;
@@ -54,9 +54,9 @@
   
   .placards-bottom{
     text-align: left;
-    font-size: 36px;
-    line-height: 50px;
-    margin-top: 0px;
+    font-size: calc(3.5vh);
+    line-height: calc(4vh);;
+    margin-top: 10px;
     animation: slide-top 1.3s both;
   }
   
