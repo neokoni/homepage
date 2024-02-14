@@ -1,0 +1,180 @@
+@font-face {
+  font-family: OPlusSans3 ;
+  src: url("https://resource.neokoni.moe/font/OPlusSans3-Light.subset.ttf");
+}
+body {
+  background-color: rgb(229, 242, 253);
+  width: calc(100vw);
+  height: calc(100vh);
+  overflow: hidden;
+}
+*{
+  font-family: 'OPlusSans3';
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto
+}
+
+.nav{
+  height: 60px;
+  background-color: rgba(255, 255, 255,0.4);
+  box-shadow: 0px 1px 5px rgba(192, 192, 192, 0.815);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+}
+.nav img{
+  margin-left: 100px;
+  height: 35px;
+}
+
+.title {
+  margin-top: -20px;
+  font-size: 180%;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  margin-left: calc(15vw);
+  margin-top: calc(25vh);
+}
+
+.placards-top{
+  text-align: left;
+  font-size: 60px;
+  margin-bottom: 20px;
+  -webkit-animation: slide-top 1s both;
+  animation: slide-top 1s both;
+}
+
+.placards-bottom{
+  text-align: left;
+  font-size: 36px;
+  line-height: 50px;
+  margin-top: 0px;
+  animation: slide-top 1.3s both;
+}
+
+.background{
+  width: 906px;
+  height: 906px;
+  opacity: 1;
+  background: linear-gradient(234.56deg, rgb(19, 140, 238) 0%, rgb(255, 167, 179) 100%);
+  filter: blur(200px);
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  animation: ab 20s infinite;
+  animation-delay: -1;
+}
+
+.panel{
+  height: auto;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.137);
+  backdrop-filter: blur(10px);
+  margin-left: calc(25vw);
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid;
+  border-color: rgba(236, 236, 236, 0.219);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.panel:hover{
+  box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.479);
+}
+.div-btm{
+  justify-content: space-around;
+  display: flex;
+}
+.btm {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 55px;
+  background-color: rgba(245, 245, 245, 0.2);
+  margin-bottom: 20px;
+  color: rgb(36, 36, 36);
+  border: solid 1px;
+  border-color: rgba(223, 223, 223, 0.637);
+  font-size: 120%;
+  text-decoration: none;
+  transition-duration:0.5s;
+}
+
+.btm:hover{
+  background-color: aliceblue;
+  box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.479);
+}
+
+.title{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 140%;
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+            color: rgba(0,0,0,0);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes ab {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: rotate(0.5turn) scale(1.5);
+    max-height: calc(100vh);
+    overflow: hidden;
+  }
+  100%{
+    transform: scale(1)  rotate(0.9999turn);
+  }
+}
+/* 鼠标指针css，来自https://zhuanlan.zhihu.com/p/351951477 */
+#cursor {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+  background: #000;
+  border-radius: 8px;
+  opacity: 0.25;
+  z-index: 10086;
+  pointer-events: none;
+  transition: 0.2s ease-in-out;
+  transition-property: background, opacity, transform;
+}
+
+#cursor.hidden {
+  opacity: 0;
+}
+
+#cursor.hover {
+  opacity: 0.1;
+  transform: scale(2.5);
+}
+
+#cursor.active {
+  opacity: 0.5;
+  transform: scale(0.5);
+}

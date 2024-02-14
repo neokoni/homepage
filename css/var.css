@@ -1,15 +1,4 @@
 :root{
-    --div-border:1px solid rgba(255,255,255,0.5);
-    --div-box-shadow:0 5px 15px rgba(0, 0, 0, 0.3);
-    --btm-bg-color: rgba(0, 0, 0, 0.2);
-    --transparent-color: rgba(0, 0, 0, 0);
-    --btm-text-color-services:#85b1a0;
-    --btm-text-color-hover:#ffffff;
-    --btm-border:#9ab8a2 solid;
-    --btm-text-color-touch:#a1a1a1;
-    --btm-email-color: rgba(175,180,43,1);
-    --btm-excessive-time: 0.4s;
-    --backdrop-filter:blur(50px);
-    --border-radius:40px;
-    --div-bg-color:rgba(0, 0, 0, 0.116);
+    --blue:rgb(0, 102, 255);
+    --black: rgb(0, 0, 0);
 }

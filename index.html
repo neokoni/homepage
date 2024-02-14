@@ -1,127 +1,138 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="css/style(1300-1920).css">
-    <link rel="stylesheet" href="css/style(720-1300).css">
-    <link rel="stylesheet" href="css/style(595-720).css">
-    <link rel="stylesheet" href="css/style(max595).css">
-    <link rel="stylesheet" href="css/style(mini1920).css">
-    <link rel="stylesheet" href="css/text.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neokoni's Home</title>
+    <link rel="stylesheet" href="css/pc.css">
     <link rel="stylesheet" href="css/var.css">
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,  chrome=1">
-    <title>Neokoni's home</title>
+    <link rel="shortcut icon" href="https://resource.neokoni.moe/neokoni/img/favicon.png" type="image/x-icon">
 </head>
-<body>
-    <div class="main">
-        <div class="background1">
-            <div class="background2">
-                <!-- 下面是顶部填充div高度 -->
-                <div  class="topdiv"></div>
-                <!-- 左边头像部分 -->
-                <div class="avatar">
-                    <!-- 头像上方间距 -->
-                    <div style="height: 6%;"></div>
-                    <img class="avatar" height="30px" src="https://avatars.githubusercontent.com/u/90206655" alt="avatar" >
-                    <!-- 头像与名称之间的间距 -->
-                    <div style="height: 3%;"></div>
-                    <h1 class="username">Neokoni</h1>
-                    <!-- 名称与签名之间的间隔 -->
-                    <div style="height: 1%;"></div>
-                    <h3 class="signature">| Follow that star |</h3>
-                    <!-- 签名与简介的间隔 -->
-                    <div style="height: 4%;"></div>
-                    <h3 class="describe"><li>A Super Big Noob</li></h3>
-                    <h3 class="describe"><li>一只鸽子</li></h3>
-                </div>
-                <div class="under-avatar"></div>
-                <!-- 介绍信息 -->
-                <div class="rightinfo">
-                    <!-- 上半部分 -->
-                    <div class="part-top">
-                        <div style="height: 50px;"></div>
-                        <h1 class="title-bio">Hi！</h1>
-                        <div class="describe-div">
-                            <h3 class="text">哈喽，这里是Neokoni，来自四川南充，目前高二。</h3>
-                            <h3 class="text">喜欢折腾一些计算机方面的东西，ArchLinux用户一枚</h3>
-                            <h3 class="text">爱好摸鱼，整天摸鱼，天天摸鱼，没事就摸鱼，菜但爱玩</h3>
-                            <h3 class="text">不知道写些什么了，头像下面也是。。。</h3>
-                        </div>
-                        <div style="height: calc(4vh);"></div>
-                        <h1 class="title-bio">关于本站?</h1>
-                        <div class="describe-div">
-                            <h3 class="text">一个天天唠叨，鸽了很久的项目。一个因为买了域名而提上日程的东西</h3>
-                            <h3 class="text">经四面八方搜索结合自己知道的东西写出来的，用于展示搞的某些东西</h3>
-                            <h3 class="text">就像MarkDown写的README一样</h3>
-                            <h3 class="text">本站所有资源均来自于互联网，你可以在<a href="/source.html" target="_blank" class="sourcelist">这里</a>找到它们</h3>
-                        </div>
-                        <div style="display: flex;">
-                            <h1 class="title-bio">Status</h1><a class="status" href="https://status.neokoni.moe/status/all" target="_blank" rel="noopener noreferrer">Uptime Kuma</a>
-                        </div>
-                    </div>
-                    <div class="rightinfo-inv"></div>
-                    <!-- 下半部分 -->
-                    <div class="part-bottom">
-                        <div class="btm-border-top">
-                            <!-- 按钮 -->
-                            <button class="blog" onclick='window.open("https"+":"+"/"+"/"+"blog.neokoni.moe")'>
-                                <img src="/image/icon/blog.svg" alt="Blog" height="25px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Blog</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="alist" onclick='window.open("https"+":"+"/"+"/"+"alist.neokoni.moe")'>
-                                <img src="/image/icon/alist.svg" alt="Alist" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Alist</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="minecraft-serevr" onclick='window.open("https"+":"+"/"+"/"+"www.craft233.top")'>
-                                <img src="/image/icon/minecraft.svg" alt="Minecraft" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Minecraft Server</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="donate" onclick='window.open("https"+":"+"/"+"/"+"donate.neokoni.moe")'>
-                                <img src="/image/icon/sponsor.svg" alt="Donate" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Donate</h1>
-                            </button>
-                        </div>
-                        <div class="btm-border-buttom" >
-                            <div class="interval"></div>
-                            <button class="github" onclick='window.open("https"+":"+"/"+"/"+"github.com/sekaom")'>
-                                <img src="/image/icon/github.svg" alt="Github" height="25px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Github</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="bilibili" onclick='window.open("https"+":"+"/"+"/"+"space.bilibili.com/703126674")'>
-                                <img src="/image/icon/bilibili.svg" alt="BiliBili" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">BiliBili</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="douyin" onclick='window.open("https"+":"+"/"+"/"+"www.douyin.com/user/MS4wLjABAAAAsfXuZcbYL7t_uuGVyEQtxxiYdKO9VpZobI52IAdoAB8")'>
-                                <img src="/image/icon/douyin.svg" alt="Douyin" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">DouYin</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="telegram" onclick='window.open("https"+":"+"/"+"/"+"t.me/Neokoni")'>
-                                <img src="/image/icon/telegram.svg" alt="Telegram" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">Telegram</h1>
-                            </button>
-                            <div class="interval"></div>
-                            <button class="mail" onclick='window.open("mailto:me@neokoni.moe")'>
-                                <img src="/image/icon/mail.svg" alt="Mail" height="30px" style="align-items: center; margin-left: 18px;">
-                                <h1 class="btm-text">E-Mail</h1>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="footnote-inv"></div>
-                <div class="footnote">
-                        <p>Copyleft © 2023 Neokoni. All rights not reserved.</p>
-                        <a href="https://icp.gov.moe/?keyword=20231252" target="_blank" style="display: block; text-align: center;" >萌ICP备20231252号</a>
-                </div>
-            </div>
-        </div>
+<body oncontextmenu=self.event.returnValue=false> 
+<nav class="nav" >
+    <img src="https://resource.neokoni.moe/neokoni/img/favicon.png" alt="" size="10" srcset="">
+    <h1 class="title">Neokoni's</h1>
+    <h1 class="title" style="color:var(--blue);">Home</h1>
+</nav>
+<div class="middle">
+    <div style="line-height: 60px;">
+        <h1 class="placards-top">HI!<br>I'm Neokoni<br>a super big Noob</h1>
+        <hr style="height:1px;color:var(--black);background-color: var(--black);	-webkit-animation: slide-top 1s both;
+        animation: slide-top 1.1s both; border: none;border-radius: 10px;">
+        <h3 class="placards-bottom">Welcom to my<br>HomePage</h3>
     </div>
+    <div class="panel" >
+        <h1 class="title">Services and Contact ME</h1>
+        <div class="div-btm">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Blog</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Alist</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Minecraft<br>Server</a>
+        </div>
+        <div class="div-btm">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Give me<br>Money</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Status</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Github</a>
+        </div>
+        <div class="div-btm">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">E-mail</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">BiliBili</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Douyin</a>
+        </div>
+        <div class="div-btm">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Telegram</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">About</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="btm">Friends<br>links</a>
+        </div>
+        
+
+    </div>
+</div>
+<script>
+    /* 鼠标指针css，来自https://zhuanlan.zhihu.com/p/351951477 */
+    var CURSOR;
+
+Math.lerp = (a, b, n) => (1 - n) * a + n * b;
+
+const getStyle = (el, attr) => {
+    try {
+        return window.getComputedStyle
+            ? window.getComputedStyle(el)[attr]
+            : el.currentStyle[attr];
+    } catch (e) {}
+    return "";
+};
+
+class Cursor {
+    constructor() {
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    move(left, top) {
+        this.cursor.style["left"] = `${left}px`;
+        this.cursor.style["top"] = `${top}px`;
+    }
+
+    create() {
+        if (!this.cursor) {
+            this.cursor = document.createElement("div");
+            this.cursor.id = "cursor";
+            this.cursor.classList.add("hidden");
+            document.body.append(this.cursor);
+        }
+
+        var el = document.getElementsByTagName('*');
+        for (let i = 0; i < el.length; i++)
+            if (getStyle(el[i], "cursor") == "pointer")
+                this.pt.push(el[i].outerHTML);
+
+        document.body.appendChild((this.scr = document.createElement("style")));
+        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;
+    }
+
+    refresh() {
+        this.scr.remove();
+        this.cursor.classList.remove("hover");
+        this.cursor.classList.remove("active");
+        this.pos = {curr: null, prev: null};
+        this.pt = [];
+
+        this.create();
+        this.init();
+        this.render();
+    }
+
+    init() {
+        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");
+        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");
+        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};
+        document.onmouseenter = e => this.cursor.classList.remove("hidden");
+        document.onmouseleave = e => this.cursor.classList.add("hidden");
+        document.onmousedown  = e => this.cursor.classList.add("active");
+        document.onmouseup    = e => this.cursor.classList.remove("active");
+    }
+
+    render() {
+        if (this.pos.prev) {
+            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);
+            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);
+            this.move(this.pos.prev.x, this.pos.prev.y);
+        } else {
+            this.pos.prev = this.pos.curr;
+        }
+        requestAnimationFrame(() => this.render());
+    }
+}
+
+(() => {
+    CURSOR = new Cursor();
+    // 需要重新获取列表时，使用 CURSOR.refresh()
+})();
+</script>
+<div class="background"></div>
+<div class="footnote"></div>
 </body>
 </html>
