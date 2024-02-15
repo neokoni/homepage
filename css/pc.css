@@ -62,8 +62,8 @@
   }
   
   .background{
-    width: calc(65vh);
-    height: calc(65vh);
+    width: calc(70vh);
+    height: calc(70vh);
     opacity: 1;
     background: linear-gradient(234.56deg, rgb(19, 140, 238) 0%, rgb(255, 167, 179) 100%);
     filter: blur(100px);
