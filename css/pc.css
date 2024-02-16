@@ -1,24 +1,11 @@
 @media screen and (min-width: 900px){ 
 
-  @font-face {
-    font-family: OPlusSans3 ;
-    src: url("https://resource.neokoni.moe/font/OPlusSans3-Light.subset.ttf");
-  }
   body {
     background-color: rgb(247 251 253);
     width: calc(100vw);
     height: calc(100vh);
     overflow: hidden;
     
-  }
-  *{
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    font-family: 'OPlusSans3';
-    margin: 0;
-    padding: 0;
-    user-select: none;
-    cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto
   }
   
   .nav{
@@ -47,7 +34,20 @@
     margin-right: calc(13vw);
     margin-top: 10%;
   }
-  
+   
+  .hr{
+    height:1px;
+    color:var(--black);
+    background-color: var(--black);
+    -webkit-animation: slide-top 1s both;
+    animation: slide-top 1.1s both;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .pagetitle{
+    line-height: 60px;
+  }
   .placards-top{
     text-align: left;
     line-height: calc(6vh);
