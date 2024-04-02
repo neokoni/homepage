@@ -140,11 +140,11 @@
     }
     
     .panel:hover{
-      transform:scale(1.005);
+      transform:scale(1.005) translateY(calc(35vh));
       box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.479);
-      -webkit-transform:scale(1.005);
-      -moz-transform:scale(1.005);
-      -o-transform:scale(1.005);
+      -webkit-transform:scale(1.005) translateY(calc(35vh));
+      -moz-transform:scale(1.005) translateY(calc(35vh));
+      -o-transform:scale(1.005) translateY(calc(35vh));
     }
     .div-btm{
       justify-content: space-around;
