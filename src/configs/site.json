@@ -1,0 +1,19 @@
+{
+    "background-img": "/image.png",
+    "title": "Neokoni's Homepage",
+    "right": "2026 Neokoni. All rights reserved.",
+    "icp": [
+        {
+            "name": "萌ICP备20250804号",
+            "url": "https://icp.gov.moe/?keyword=20250804"
+        },
+        {
+            "name": "蜀ICP备2024074700号-2",
+            "url": "https://beian.miit.gov.cn/"
+        },
+        {
+            "name": "川公网安备51130402000150号",
+            "url": "https://beian.mps.gov.cn/#/query/webSearch?code=51130402000150"
+        }
+    ]
+}

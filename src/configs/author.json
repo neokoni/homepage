@@ -1,0 +1,27 @@
+{
+    "name": "Neokoni",
+    "bio": "Super big noob...",
+    "avatar": "https://avatars.githubusercontent.com/u/90206655?v=4",
+    "links": [
+        {
+            "name": "github",
+            "url": "https://github.com/Neokoni",
+            "icon": "mingcute:github-line"
+        },
+        {
+            "name": "bilibili",
+            "url": "https://space.bilibili.com/12345678",
+            "icon": "mingcute:bilibili-line"
+        },
+        {
+            "name": "email",
+            "url": "mailto:me@neokoni.ink",
+            "icon": "majesticons:mail-line"
+        },
+        {
+            "name": "telegram",
+            "url": "https://t.me/neokonia",
+            "icon": "stash:telegram"
+        }
+    ]
+}
