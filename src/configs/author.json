@@ -11,17 +11,21 @@
         {
             "name": "Bilibili",
             "url": "https://space.bilibili.com/12345678",
-            "icon": "mingcute:bilibili-line"
+            "icon": "mingcute:bilibili-line",
+            "defaultColor": "",
+            "hoverColor": "#FB7299"
         },
         {
             "name": "Mail",
             "url": "mailto:me@neokoni.ink",
-            "icon": "majesticons:mail-line"
+            "icon": "majesticons:mail-line",
+            "hoverColor": "#ea4335"
         },
         {
             "name": "Telegram",
             "url": "https://t.me/neokonia",
-            "icon": "stash:telegram"
+            "icon": "stash:telegram",
+            "hoverColor": "#27A7E7"
         }
     ]
 }
