@@ -29,7 +29,7 @@ document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
                 '--icon-hover': value.hoverColor || undefined,
               }">
             <Icon :icon="value.icon" class="icon-color" />
-            <div class="text-sm absolute pt-10 opacity-0 transition-all duration-200
+            <div class="h-full text-sm absolute pt-10 opacity-0 transition-all duration-200
                         hover:opacity-100">
               {{ value.name }}
             </div>
