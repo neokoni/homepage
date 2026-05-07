@@ -10,7 +10,7 @@ document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
 
 <template>
   <div class="flex h-screen w-screen">
-    <div class="w-5/16 w-max-w-2/3 h-full bg-white/50
+    <div class="md:w-5/16 md:w-max-w-2/3 w-full h-full bg-white/50
                 backdrop-blur-2xl border-r border-white/50
                 shadow-[10px_0px_30px_rgba(0,0,0,0.25)]
                 flex flex-col items-center justify-center">
@@ -31,7 +31,7 @@ document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
         </template>
       </div>
     </div>
-    <footer class="absolute bottom-0 w-5/16 h-[-100px] mb-3
+    <footer class="absolute bottom-0 md:w-5/16 w-full h-[-100px] mb-3
                 flex flex-col items-center justify-center">
       <template v-for="value in SiteConfig.icp" v-if="SiteConfig.icp">
         <a :href="value.url" target="_blank"
