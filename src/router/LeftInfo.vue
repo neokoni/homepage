@@ -1,5 +1,5 @@
 <template>
-    <div class="w-5/16 h-full bg-white/40
+    <div class="w-5/16 w-max-w-2/3 h-full bg-white/40
                 backdrop-blur-xl border-r border-white/50
                 shadow-[10px_0px_30px_rgba(0,0,0,0.25)]
                 flex flex-col items-center justify-center">
