@@ -9,7 +9,7 @@
                     border-r border-white/50 shadow-xl">
         <h1 class="text-3xl font-bold mb-4">{{ AuthorInfo.name }}</h1>
         <h1 class="text-lg text-gray-700 mb-6" v-if="AuthorInfo.bio">{{ AuthorInfo.bio }}</h1>
-        <div class="flex text-2xl gap-1.5">
+        <div class="flex text-2xl gap-2">
             <template v-for="value in AuthorInfo.links">
                 <a :href="value.url" target="_blank" class="text-gray-700 hover:text-gray-900 transition-colors duration-300">
                     <Icon :icon="value.icon" />
