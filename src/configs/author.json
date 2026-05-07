@@ -4,22 +4,22 @@
     "avatar": "https://avatars.githubusercontent.com/u/90206655?v=4",
     "links": [
         {
-            "name": "github",
+            "name": "GitHub",
             "url": "https://github.com/Neokoni",
             "icon": "mingcute:github-line"
         },
         {
-            "name": "bilibili",
+            "name": "Bilibili",
             "url": "https://space.bilibili.com/12345678",
             "icon": "mingcute:bilibili-line"
         },
         {
-            "name": "email",
+            "name": "Mail",
             "url": "mailto:me@neokoni.ink",
             "icon": "majesticons:mail-line"
         },
         {
-            "name": "telegram",
+            "name": "Telegram",
             "url": "https://t.me/neokonia",
             "icon": "stash:telegram"
         }
