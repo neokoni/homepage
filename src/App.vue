@@ -3,7 +3,6 @@ import SiteConfig from './configs/site.json';
 import AuthorInfo from './configs/author.json';
 
 import { Icon } from '@iconify/vue'
-import { d } from 'vue-router/dist/index-D_VEAp3P.js';
 // set background
 document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
 </script>
