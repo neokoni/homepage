@@ -26,6 +26,21 @@
             "url": "https://t.me/neokonia",
             "icon": "stash:telegram",
             "hoverColor": "#27A7E7"
+        },
+        {
+            "name": "Blog",
+            "url": "https://blog.neokoni.ink",
+            "icon": "mingcute:quill-pen-ai-line"
+        },
+        {
+            "name": "Status",
+            "url": "https://status.neokoni.ink",
+            "icon": "heroicons-outline:status-online"
+        },
+        {
+            "name": "Donate",
+            "url": "https://dq.neokoni.ink",
+            "icon": "tabler:gift"
         }
     ]
 }
