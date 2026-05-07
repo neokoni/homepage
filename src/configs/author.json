@@ -33,6 +33,11 @@
             "icon": "mingcute:quill-pen-ai-line"
         },
         {
+            "name": "FriendLinks",
+            "url": "https://blog.neokoni.ink/links",
+            "icon": "zondicons:link"
+        },
+        {
             "name": "Status",
             "url": "https://status.neokoni.ink",
             "icon": "heroicons-outline:status-online"
