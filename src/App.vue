@@ -3,6 +3,7 @@ import SiteConfig from './configs/site.json';
 import AuthorInfo from './configs/author.json';
 
 import { Icon } from '@iconify/vue'
+import { d } from 'vue-router/dist/index-D_VEAp3P.js';
 // set background
 document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
 </script>
@@ -35,6 +36,7 @@ document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
           </a>
         </template>
       </div>
+      <div class="md:h-0 h-10"></div>
     </div>
     <footer class="absolute bottom-0 md:w-5/16 w-full h-[-100px] mb-3
                 flex flex-col items-center justify-center">
