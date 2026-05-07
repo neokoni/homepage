@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import LeftInfo from './router/LeftInfo.vue';
 import SiteConfig from './configs/site.json';
 import AuthorInfo from './configs/author.json';
 
