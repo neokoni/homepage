@@ -22,20 +22,12 @@ const handleColorSchemeChange = () => setCurrentTheme();
 
 onMounted(() => {
   colorSchemeQuery = window.matchMedia('(prefers-color-scheme: dark)');
-  if ('addEventListener' in colorSchemeQuery) {
-    colorSchemeQuery.addEventListener('change', handleColorSchemeChange);
-  } else {
-    colorSchemeQuery.addListener(handleColorSchemeChange);
-  }
+  colorSchemeQuery.addEventListener('change', handleColorSchemeChange);
 });
 
 onBeforeUnmount(() => {
   if (!colorSchemeQuery) return;
-  if ('removeEventListener' in colorSchemeQuery) {
-    colorSchemeQuery.removeEventListener('change', handleColorSchemeChange);
-  } else {
-    colorSchemeQuery.removeListener(handleColorSchemeChange);
-  }
+  colorSchemeQuery.removeEventListener('change', handleColorSchemeChange);
 });
 
 </script>
