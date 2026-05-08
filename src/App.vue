@@ -4,7 +4,14 @@ import AuthorInfo from './configs/author.json';
 
 import { Icon } from '@iconify/vue'
 // set background
-// document.body.style.backgroundImage = `url(${SiteConfig['background-img']})`;
+var defaultBackground = `url(${SiteConfig['background-img']})`;
+var darkBackground = `url(${SiteConfig['darkmode-background-img']})`;
+console.log(darkBackground);
+if (darkBackground.length <= 5) { // url() is 5 characters
+  darkBackground = defaultBackground;
+}
+document.documentElement.style.setProperty('--default-background', defaultBackground);
+document.documentElement.style.setProperty('--dark-background', darkBackground);
 </script>
 
 <template>
