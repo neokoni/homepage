@@ -3,6 +3,7 @@
                 dark:bg-black/60 dark:border-gray-700/50
                 backdrop-blur-2xl border p-2
                 text-black/85 dark:text-gray-300
+                transition-all duration-300
                 rounded-tl-lg text-sm">
         <p>Background Info</p>
         <p v-if="backgroundInfo[+prop.darkMod]?.author">Author: <a :href="backgroundInfo[+prop.darkMod]?.authorUrl" target="_blank">
