@@ -6,12 +6,14 @@
                 transition-all duration-300
                 rounded-tl-lg text-sm">
         <p>Background Info</p>
-        <p v-if="backgroundInfo[+prop.darkMod]?.author">Author: <a :href="backgroundInfo[+prop.darkMod]?.authorUrl" target="_blank">
+        <p v-if="backgroundInfo[+prop.darkMod]?.author">Author: <a :href="backgroundInfo[+prop.darkMod]?.authorUrl" target="_blank"
+          class="hover:text-gray-900 dark:hover:text-white duration-300">
           {{ backgroundInfo[+prop.darkMod]?.author }}
           </a>
         </p>
         
-        <p v-if="backgroundInfo[+prop.darkMod]?.name">Source: <a :href="backgroundInfo[+prop.darkMod]?.imgSource" target="_blank">
+        <p v-if="backgroundInfo[+prop.darkMod]?.name">Source: <a :href="backgroundInfo[+prop.darkMod]?.imgSource" target="_blank"
+          class="hover:text-gray-900 dark:hover:text-white duration-300">
           {{ backgroundInfo[+prop.darkMod]?.name }}
         </a>
         </p>
