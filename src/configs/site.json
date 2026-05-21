@@ -3,6 +3,10 @@
     "darkmode-background-img": "/background-dark.jpg",
     "title": "Neokoni's Homepage",
     "showBackgroundInfo": true,
+    "hitokoto": {
+        "enable": true,
+        "url": "https://international.v1.hitokoto.cn"
+    },
     "backgroundInfo": [
         {
             "author": "紺屋",
