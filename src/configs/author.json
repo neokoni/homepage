@@ -43,6 +43,11 @@
             "icon": "heroicons-outline:status-online"
         },
         {
+            "name": "Drive",
+            "url": "https://pan.neokoni.ink",
+            "icon": "lucide:hard-drive"
+        },
+        {
             "name": "Donate",
             "url": "https://dq.neokoni.ink",
             "icon": "tabler:gift"
