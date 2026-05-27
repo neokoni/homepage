@@ -76,7 +76,6 @@ onBeforeUnmount(() => {
         <h1 id="hitokotoCtx" class="text-sm text-gray-600 dark:text-gray-300">&nbsp</h1>
         <h1 id="hitokotoFrom" class="text-sm text-gray-600 dark:text-gray-300 text-right">&nbsp</h1>
       </div>
-      <!-- <h1 class="text-sm text-gray-700 dark:text-gray-300 mb-6" v-if="AuthorInfo.bio">yiyan</h1> -->
       <div class="flex text-2xl gap-2">
         <template v-for="value in AuthorInfo.links">
           <a :href="value.url" target="_blank" 
