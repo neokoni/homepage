@@ -62,7 +62,7 @@ onBeforeUnmount(() => {
                 bg-white/50 border-white/50
                 dark:bg-black/60 dark:border-gray-700/50
                 backdrop-blur-2xl border-r transition-all duration-300
-                shadow-[10px_0px_30px_rgba(0,0,0,0.25)]
+                shadow-[10px_0px_30px_rgba(0,0,0,0.25)] p-6
                 flex flex-col items-center justify-center">
       <img :src="AuthorInfo.avatar" alt="avatar"
         class="h-40 w-40 rounded-full mb-4 shadow-xl">
